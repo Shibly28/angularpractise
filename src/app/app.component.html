@@ -4,5 +4,9 @@
   <li *ngFor="let blog of blogs">{{blog}}
   </li>
 </ul>
-<img src="{{imageSrc}}" alt="">
+<button (click)="onClick()">Save</button>
+<button (click)="onClick1">Save2</button>
+
+
 <app-blog-post></app-blog-post>
+<img src="{{imageSrc}}" alt="">
